@@ -1,0 +1,16 @@
+
+
+#presentation {
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+#divpresaccueil {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+    max-width: 40%;
+}
+
