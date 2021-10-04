@@ -1,0 +1,24 @@
+footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh;
+}
+.info {
+    list-style: none;
+    padding: 5px;
+}
+a:link {
+    color: white;
+    }
+.logo {
+    display: flex;
+}
+.bouton {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+}
