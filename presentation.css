@@ -1,5 +1,9 @@
 h1 {
-  font-size: 50px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 2em;
+  box-shadow: 10px 5px 5px red;
 }
 .containerA {
   display: grid;
@@ -24,7 +28,8 @@ h1 {
   grid-row-start: 1;
   grid-row-end: 2;
   margin: 1.5rem;
-  box-shadow: 0.5rem 0.5rem darkslateblue;
+  padding: 1.5rem;
+  box-shadow: 10px 5px 5px red;
 }
 #paragraph1 p {
   width: 100%;
@@ -61,7 +66,8 @@ h1 {
   font-size: 1rem;
   border-radius: 5%;
   margin: 1rem;
-  box-shadow: 0.5rem 0.5rem darkslateblue;
+  padding: 1.5rem;
+  box-shadow: 10px 5px 5px red;
 }
 #paragraph2 p {
   width: 100%;
@@ -77,8 +83,8 @@ h1 {
   width: 460px;
   height: 340px;
   margin: 1.5rem;
+ 
 }
-
 .element {
   margin: 2%;
 }
