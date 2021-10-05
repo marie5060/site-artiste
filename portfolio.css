@@ -1,3 +1,7 @@
+body, section{
+    background-image: url("./Assets/brick-wall.png");
+}
+
 h1{
     font-size: 5em;
     color: white;
@@ -7,7 +11,7 @@ h1{
     background-color: black;
     text-align: center;
     margin: 2em;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px red;
 
 }
 
@@ -25,7 +29,7 @@ img{
 
 
 .sectionNouvautees{
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
     display: flex;
     padding: 4vh;
     flex-direction: column;
@@ -65,7 +69,7 @@ img{
 }
 
 .sectionPeintures{
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
     display: flex;
     padding: 4vh;
     flex-direction: column;
