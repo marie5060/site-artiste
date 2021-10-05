@@ -1,16 +1,38 @@
-/*.contactTitle {
-
-}*/
-.textform{
-    text-align: center;
+/*background + couleur de la page*/
+body{
+    background-image: url("assets-contact/brick.png");
+    background-color: black;
 }
-.form {
-    background-color: red;
+/*bandeau du titre, le même que sur les autres pages*/
+h1{
+    opacity: 0.5;
+    font-size: 4em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 2em;
+    box-shadow: 10px 5px 5px red;
+}
+/*paragraphe de présentation du formulaire*/
+p{
+    text-align: center;
+    font-size: 2em;
+}
+/*formulaire avec image background et 4 div (2 input, 1 text area et 1 bouton)*/
+.contactForm {
+    background-image: url("assets-contact/baleine.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    border-style: solid;
+    border-radius: 15%;
     display: flex;
     flex-direction: column;
-    margin: 3% 20%;
+    margin: 5%;
     padding: 3%;
+    justify-content: center;
 }
+/*div de chaque input*/
 .line {
     display: flex;
     justify-content: center;
@@ -18,12 +40,24 @@
 }
 .inputform {
     text-align: center;
-    width : 50%;
+    opacity: 0.9;
+    height : 2em;
+    width : 80%;
+    margin: 2em;
 }
-#selection{
-    width : 50%;
+/*text area*/
+#message{
+    height: 12vh;
 }
-.roll {
+/*bouton du formulaire qui renvoit un event "click" grâce à JS + son hover*/
+#formButton{
+    background-color: black;
     color: white;
-    text-align: center;
+    width: 15em;
+    padding: 1em;
+    border-radius: 10px;
 }
+#formButton:hover{
+        box-shadow: 5px 5px 5px red;
+    }
+/*CSS du responsive*/
