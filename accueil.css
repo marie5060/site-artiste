@@ -1,3 +1,7 @@
+body, section {
+    background-image: url("Assets-accueil/brick-wall.png");
+}
+
 section{
     padding: 2em;
 }
