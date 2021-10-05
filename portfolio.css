@@ -1,5 +1,6 @@
 body, section{
     background-image: url("./Assets/brick-wall.png");
+    background-color: black;
 }
 
 h1{
@@ -12,6 +13,7 @@ h1{
     text-align: center;
     margin: 2em;
     box-shadow: 10px 5px 5px red;
+    opacity: 50%;
 
 }
 
@@ -25,7 +27,7 @@ img{
     
 }
 
-#img2:hover {opacity: 0.5;}
+img:hover {opacity: 0.5;}
 
 
 .sectionNouvautees{
@@ -179,6 +181,7 @@ img{
     color: #ccc;
     padding: 10px 0;
     height: 150px;
+    font-size: 2em;
   }
 
   /* The Close Button */
