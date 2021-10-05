@@ -60,6 +60,7 @@ h1 {
   grid-row-end: 2;
   font-size: 1rem;
   border-radius: 5%;
+  margin: 1rem;
   box-shadow: 0.5rem 0.5rem darkslateblue;
 }
 #paragraph2 p {
