@@ -1,10 +1,23 @@
 body, section {
     background-image: url("Assets-accueil/brick-wall.png");
+    background-color: black;
+    color: whitesmoke;
+}
+a{
+    color: black;
+    font-weight: bolder;
 }
 
 section{
     padding: 2em;
 }
+
+h3{
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+
 button{
     background-color: black;
     color: white;
@@ -22,9 +35,14 @@ button:hover{
     height: 100%;
 
 }
+#divpresaccueil {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+}
 
 #ppresaccueil{
-    padding: 2em;
+    padding: 1em;
     font-style: italic;
     font-size: 2em;
 }
@@ -42,6 +60,7 @@ h2{
     text-align: center;
     margin: 2em;
     box-shadow: 10px 5px 5px red;
+    opacity: 50%;
 
 }
 
@@ -58,6 +77,7 @@ h2{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    align-items: center;
     padding-bottom: 5em;
     padding-right: 5em;
     padding-left: 5em;
@@ -65,18 +85,14 @@ h2{
 
 }
 
-#divpresaccueil {
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2em;
-}
+
 
 .imgcatoeuvre {
     max-width: 60%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 1em;
+    grid-gap: 2em;
     padding-bottom: 5em;
     padding-left: 1em;
 }
@@ -124,7 +140,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 1em;
+    grid-gap: 2em;
     padding-bottom: 5em;
     padding-right: 1em;
 }
@@ -171,7 +187,11 @@ h2{
     flex-direction: column;
     justify-content: space-between;
     padding: 2em;
+    padding: 2em;
+    font-style: italic;
+    font-size: 2em;
 }
+
 
 #imgEveAccueil {
     max-width: 60%;
