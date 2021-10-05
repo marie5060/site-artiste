@@ -1,5 +1,15 @@
-#presentation{
-    padding-bottom: 5em;
+section{
+    padding: 2em;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 15em;
+    padding: 1em;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: 5px 5px 5px red;
 }
 
 #imgpres{
@@ -27,10 +37,12 @@ h2{
     max-width: 30%;
 }
 
-#presentation {
+
+#sectionPresentation {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    padding-bottom: 5em;
    
 
 }
@@ -39,7 +51,6 @@ h2{
     flex-direction: column;
     justify-content: space-between;
     padding: 2em;
-    max-width: 40%;
 }
 
 .imgcatoeuvre {
@@ -49,7 +60,13 @@ h2{
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 1em;
     padding-bottom: 5em;
+    padding-left: 1em;
 }
+
+.imgcatoeuvre > img{
+    box-shadow: 10px 5px 5px black;
+}
+
 
 #peintureaccueil1 {
     width : 100%;
@@ -91,4 +108,68 @@ h2{
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 1em;
     padding-bottom: 5em;
+    padding-right: 1em;
+}
+
+.imgcatoeuvredessins > img {
+    box-shadow: 10px 5px 5px black;
+}
+
+#dessinaccueil1 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+#dessinaccueil2 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#dessinaccueil3 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#sectionEvenements{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+#divEvenAccueil {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+#imgEveAccueil {
+    max-width: 60%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 750px){
+
+    #sectionPresentation {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #sectionEvenements {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    
 }
