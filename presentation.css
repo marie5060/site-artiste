@@ -39,9 +39,10 @@ h2 {
 }
 
 #video iframe {
-  /*background-size: contain;*/
+  background-size: contain;
   margin: 1.5rem;
-  width: 100%;
+  width: 40vh;
+  height: 30vh;
 }
 
 #sectionPres2 {
@@ -64,8 +65,8 @@ h2 {
   background-image: url("contenu-images/visage.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 680px;
-  height: 512px;
+  width: 40vh;
+  height: 30vh;
 }
 .element {
   margin: 2%;
