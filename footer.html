@@ -8,29 +8,28 @@
     <link href="footer.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <footer>
-
-    <div class="informations">Pour plus d'informations :
-            <ul class="contact">
-                <li class="info">Téléphone : +33630714974</li>
-                <li class="info">Mail : <a href= "mailto: auri.workaart@gmail.com" id="adress">auri.workaart@gmail.com</a></li>
-                <li class="info">Tous droits réservés</li>
+<footer>
+    <!--div contact téléphone/mail-->
+    <div>Pour plus d'informations :
+            <ul>
+                <li class="contact">Téléphone : +33630714974</li>
+                <li class="contact">Mail : <a href= "mailto: auri.workaart@gmail.com" id="adress">auri.workaart@gmail.com</a></li>
+                <li class="contact">Tous droits réservés</li>
         </ul>
     </div>
-
-    <div class ="socialnetwork">Retrouvez-moi sur les réseaux sociaux :
-        <div class="logo"></div>
+    <!--div réseaux sociaux avec boutons/liens vers FB et Insta-->
+    <div>Retrouvez-moi sur les réseaux sociaux :
+        <div class="socialNetwork"></div>
         <br>
-        <a href="https://www.instagram.com/auri_workaart/" class="bouton"> 
+        <a href="https://www.instagram.com/auri_workaart/" class="logo"> 
         <img src="assets-footer/logo-insta.png" alt="instagram"/>
         </a>
-        <a href="https://www.facebook.com/Auri_workaart-611082549312910" class="bouton">
+        <a href="https://www.facebook.com/Auri_workaart-611082549312910" class="logo">
            <img src="assets-footer/logo-facebook.png" alt="facebook"/>
         </a>
-        </div>
     </div>
-
-    <div class="newsletter">Abonnez-vous à la newsletter :
+    <!--div newsletter avec input et bouton(event JS click)-->
+    <div>Abonnez-vous à la newsletter :
         <form>
             <br>
         <input type="text" placeholder="Veuillez saisir votre adresse e-mail" id="mailNews">
@@ -38,6 +37,6 @@
         </form>
     </div>
 <script src="footer.js"></script>
-        </footer>
+</footer>
 </body>
 </html>
