@@ -16,6 +16,7 @@ body {
 #sectionPres {
   display: flex;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding-bottom: 5em;
@@ -46,6 +47,7 @@ h2 {
 
 #sectionPres2 {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
