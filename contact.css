@@ -70,3 +70,9 @@ p{
         background-image: url("assets-contact/visage.png");
     }
 }
+@media screen and (max-width: 500px){
+    .contactForm{
+        background-image: none;
+        border-style: none;
+    }
+}
