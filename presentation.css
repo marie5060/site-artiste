@@ -1,0 +1,73 @@
+h1 {
+  font-size: 3em;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 2em;
+  box-shadow: 10px 5px 5px red;
+  opacity: 50%;
+}
+body {
+  background-image: url("contenu-images/fond.png");
+  background-color: black;
+  color: whitesmoke;
+}
+
+#sectionPres {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5em;
+  padding-right: 5em;
+  padding-left: 5em;
+}
+#paragraph1 {
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em;
+}
+h2 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+#paragraph1 {
+  padding: 1em;
+  font-style: italic;
+  font-size: 2em;
+}
+
+#video iframe {
+  background-size: contain;
+  margin: 1.5rem;
+  width: 40vh;
+  height: 30vh;
+}
+
+#sectionPres2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5em;
+  padding-right: 5em;
+  padding-left: 5em;
+}
+#paragraph2 {
+  padding: 1em;
+  font-style: italic;
+  font-size: 2em;
+}
+
+#peinture {
+  background-image: url("contenu-images/visage.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40vh;
+  height: 30vh;
+}
+.element {
+  margin: 2%;
+}
