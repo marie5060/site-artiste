@@ -197,11 +197,16 @@ h2{
     max-width: 60%;
 }
 
-@media screen and (min-width: 400px) and (max-width: 750px){
+@media screen and (max-width: 750px){
 
     #sectionPresentation {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    #ppresaccueil{
+        padding: 0.5em;
+        font-size: 1em;
     }
 
     #sectionEvenements {
@@ -209,5 +214,20 @@ h2{
         flex-wrap: wrap;
 
     }
+
+
+    #h3oeuvreaccueil{
+        font-size: 1em;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
     
+    h2{
+        font-size: 1em;
+    }
+    
+
 }

@@ -52,7 +52,6 @@ img:hover {opacity: 0.5;}
 }
 
 .sectionDessins{
-    background-color: white;
     display: flex;
     padding: 4vh;
     flex-direction: column;
