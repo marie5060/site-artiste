@@ -55,7 +55,7 @@ h2{
     color: white;
 }
 
-#H2div{
+.H2div{
     background-color: black;
     text-align: center;
     margin: 2em;
@@ -64,7 +64,7 @@ h2{
 
 }
 
-#h3oeuvreaccueil {
+.h3oeuvreaccueil {
     font-size: 3em;
     padding-left: 1em;
     padding-right: 1em;
@@ -122,6 +122,34 @@ h2{
 }
 
 #peintureaccueil3 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#nouveauteaccueil1 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+#nouveauteaccueil2 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#nouveauteaccueil3 {
     width : 100%;
     height : 100%;
     grid-column-start: 4;
