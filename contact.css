@@ -64,6 +64,7 @@ p{
 /*CSS du responsive*/
 @media screen and (min-width: 500px) and (max-width: 820px){
     h1{
+        font-size: 1em;
         text-align: center;
     }
     .contactForm{
@@ -71,6 +72,10 @@ p{
     }
 }
 @media screen and (max-width: 500px){
+    h1{
+        font-size: 1em;
+        text-align: center;
+    }
     .contactForm{
         background-image: none;
         border-style: none;
