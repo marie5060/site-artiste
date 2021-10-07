@@ -206,5 +206,10 @@ img:hover {opacity: 0.5;}
     .modal-content {
       width: 100%;
     }
-  }
+    h1{
+        font-size: 2em;
+    }
+
+}
+
   
