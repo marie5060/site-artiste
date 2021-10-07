@@ -1,0 +1,41 @@
+/*ensemble du footer*/
+footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh;
+}
+.contact {
+    list-style: none;
+    padding: 5px;
+}
+a:link {
+    color: white;
+    }
+.socialNetwork {
+    display: flex;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+}
+/*ajout du responsive*/
+@media screen and (max-width: 650px)
+{
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #mailNews {
+        height: 2em;
+        width: 100%;
+    }
+    #buttonNews {
+        height: 3em;
+    }
+}

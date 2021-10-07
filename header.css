@@ -7,7 +7,7 @@ nav {
 }
 /*dimension de tout l'encart navigation comprenant la photo et le menu */
 
-img{
+#bandeauheader{
     object-fit: cover;
     width:100%;
     height:80%;
@@ -54,8 +54,8 @@ a:hover{
       display:none;
     }
 
-@media screen and (max-width: 650px){
-
+@media screen and (max-width: 750px)
+{
 
  
     .menu
@@ -88,5 +88,7 @@ a:hover{
         display: flex;
     }
 
+
     
+
 }

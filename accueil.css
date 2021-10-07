@@ -1,0 +1,233 @@
+body, section {
+    background-image: url("Assets-accueil/brick-wall.png");
+    background-color: black;
+    color: whitesmoke;
+}
+a{
+    color: black;
+    font-weight: bolder;
+}
+
+section{
+    padding: 2em;
+}
+
+h3{
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    width: 15em;
+    padding: 1em;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: 5px 5px 5px red;
+}
+
+#imgpres{
+    padding-top: 2em;
+    width: 100%;
+    height: 100%;
+
+}
+#divpresaccueil {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+#ppresaccueil{
+    padding: 1em;
+    font-style: italic;
+    font-size: 2em;
+}
+span{
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 4em;
+    color: white;
+}
+
+#H2div{
+    background-color: black;
+    text-align: center;
+    margin: 2em;
+    box-shadow: 10px 5px 5px red;
+    opacity: 50%;
+
+}
+
+#h3oeuvreaccueil {
+    font-size: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    max-width: 30%;
+}
+
+
+#sectionPresentation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5em;
+    padding-right: 5em;
+    padding-left: 5em;
+   
+
+}
+
+
+
+.imgcatoeuvre {
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2em;
+    padding-bottom: 5em;
+    padding-left: 1em;
+}
+
+.imgcatoeuvre > img{
+    box-shadow: 10px 5px 5px black;
+}
+
+
+#peintureaccueil1 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+#peintureaccueil2 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#peintureaccueil3 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.catoeuvre{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgcatoeuvredessins {
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2em;
+    padding-bottom: 5em;
+    padding-right: 1em;
+}
+
+.imgcatoeuvredessins > img {
+    box-shadow: 10px 5px 5px black;
+}
+
+#dessinaccueil1 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+#dessinaccueil2 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#dessinaccueil3 {
+    width : 100%;
+    height : 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#sectionEvenements{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+#divEvenAccueil {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+    padding: 2em;
+    font-style: italic;
+    font-size: 2em;
+}
+
+
+#imgEveAccueil {
+    max-width: 60%;
+}
+
+@media screen and (max-width: 750px){
+
+    #sectionPresentation {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #ppresaccueil{
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    #sectionEvenements {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+    #h3oeuvreaccueil{
+        font-size: 1em;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    
+    h2{
+        font-size: 1em;
+    }
+    
+
+}

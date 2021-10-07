@@ -1,0 +1,112 @@
+body{
+    background-image: url("./assets-event/brick-wall.png");
+    background-color: black;
+    
+}
+
+h1{
+    font-size: 5em;
+    color: white;
+     background-color: black;
+    text-align: center;
+    margin: 2em;
+    box-shadow: 10px 5px 5px red;
+    opacity: 50%;
+}
+
+
+   
+
+h2{
+    font-size: 3rem;
+}
+
+
+#imgEventPasses{
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  width: 40vh;
+  height: 40vh;
+}
+
+#imgEventEnCours{
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  width: 40vh;
+  height: 40vh;
+  
+}
+
+.flexpasses {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+
+}
+
+.flexencours {
+    display : flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.listepasses{
+    list-style:none; 
+    font-size: 1.5em;
+    color: wheat;
+
+}
+
+.listeEnCours{
+    list-style: none;
+    padding-right: 15vh;
+    font-size: 1.5em;
+  color:wheat ;
+
+}
+
+
+
+@media screen and (max-width: 750px){
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+
+.flexencours{
+    text-align: center;
+    padding-right: 0;
+}
+   
+.flexpasses{
+    text-align: center;
+    padding-right: 0;
+}
+
+.listepasses{
+    padding: 0%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
