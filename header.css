@@ -54,8 +54,8 @@ a:hover{
       display:none;
     }
 
-@media screen and (max-width: 650px)
-{
+@media screen and (max-width: 650px){
+
 
  
     .menu
@@ -89,3 +89,4 @@ a:hover{
     }
 
     
+}
