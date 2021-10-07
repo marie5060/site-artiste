@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link type="text/css" rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet"  href="./header.css">
+    <link href="footer.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div id = "bandeau" >
+            
+                <img id = "bandeauheader" src = "./assets-header/imageheader.jpg" >
+                <!--width="100%" height="80%">-->
+
+            </div>
+
+            
+            <label for="toggle">☰</label>
+            <input type="checkbox" id="toggle">
+            <div class ="menu" >
+                    
+                <a href= "accueil.html"> Accueil </a>
+                <a href= "presentation.html"> Qui suis-je ? </a>
+                <a href = "portfolio.html">  Portfolio </a> 
+                <a href = "event.html"> Evènements </a>
+                <a href = "contact.html"> Contact </a>
+                
+            </div>
+        
+        </nav>
+    </header>
+
+    <!--Page title-->
+    <div id = "H1div">
+        <H1>Portfolio</H1>
+    </div>
+
+    <!--1st section nouveautées-->
+    <section class = "sectionNouvautees">
+    
+        <H2>Nouveautées</H2>
+
+        <!--Img div for grid nouveautées-->
+        <Div id = "gridContainerNouveautees">
+
+            <img id = "img1" class="imagegallery" src="assets/Nouveautee5.jpg" alt="Nouveautee5">
+            <img id = "img2" class="imagegallery" src="assets/Nouveautee1.jpg" alt="Nouveautee1">
+            <img id = "img3" class="imagegallery" src="assets/Dessin3.jpg" alt="dessin3">
+            <img id = "img4" class="imagegallery" src="assets/Nouveautee2.jpg" alt="Nouveautee2">
+            <img id = "img5" class="imagegallery" src="assets/Dessin5.jpg" alt="dessin5">
+            <img id = "img6" class="imagegallery" src="assets/Nouveautee4.jpg" alt="Nouveautee4">
+
+    
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+      
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalContent">
+      
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+  
+    </div>
+        </Div>
+    
+    </section>
+
+
+    <!--2nd section dessins-->
+    <section class = "sectionDessins">
+    
+        <H2>Dessins</H2>
+
+        <!--Img div for grid dessins-->
+        <Div id = "gridContainerDessins">
+
+            <img id = "img1" class="imagegallery" src="assets/Dessin1.jpg" alt="dessin1">
+            <img id = "img2" class="imagegallery" src="assets/Dessin2.jpg" alt="dessin2">
+            <img id = "img3" class="imagegallery" src="assets/Dessin3.jpg" alt="dessin3">
+            <img id = "img4" class="imagegallery" src="assets/Dessin4.jpg" alt="dessin4">
+            <img id = "img5" class="imagegallery" src="assets/Dessin5.jpg" alt="dessin5">
+            <img id = "img6" class="imagegallery" src="assets/Dessin6.jpg" alt="dessin6">
+        </Div>
+    
+
+    </section>
+
+    <!--3rd section nouveautées-->
+    <section class = "sectionPeintures">
+    
+        <H2>Peintures</H2>
+
+        <!--Img div for grid peintures-->
+        <Div id = "gridContainerPeintures">
+
+            <img id = "img1" class="imagegallery" src="assets/Peinture9.jpg" alt="Peinture9">
+            <img id = "img2" class="imagegallery" src="assets/Peinture7.jpg" alt="Peinture7">
+            <img id = "img3" class="imagegallery" src="assets/Peinture6.jpg" alt="Peinture6">
+            <img id = "img4" class="imagegallery" src="assets/Peinture5.jpg" alt="Peinture5">
+            <img id = "img5" class="imagegallery" src="assets/Peinture3.jpg" alt="Peinture3">
+            <img id = "img6" class="imagegallery" src="assets/Peinture8.jpg" alt="Peinture8">
+        </Div>
+    
+    </section>
+
+    <footer>
+        <!--div contact téléphone/mail-->
+        <div>Pour plus d'informations :
+                <ul>
+                    <li class="contact">Téléphone : +33630714974</li>
+                    <li class="contact">Mail : <a href= "mailto: auri.workaart@gmail.com" id="adress">auri.workaart@gmail.com</a></li>
+                    <li class="contact">Tous droits réservés</li>
+            </ul>
+        </div>
+        <!--div réseaux sociaux avec boutons/liens vers FB et Insta-->
+        <div>Retrouvez-moi sur les réseaux sociaux :
+            <div class="socialNetwork"></div>
+            <br>
+            <a href="https://www.instagram.com/auri_workaart/" class="logo"> 
+            <img src="assets-footer/logo-insta.png" alt="instagram"/>
+            </a>
+            <a href="https://www.facebook.com/Auri_workaart-611082549312910" class="logo">
+               <img src="assets-footer/logo-facebook.png" alt="facebook"/>
+            </a>
+        </div>
+        <!--div newsletter avec input et bouton(event JS click)-->
+        <div>Abonnez-vous à la newsletter :
+            <form>
+                <br>
+            <input type="text" placeholder="Veuillez saisir votre adresse e-mail" id="mailNews">
+            <input type="button" value="Je m'abonne" id="buttonNews">
+            </form>
+        </div>
+    <script src="footer.js"></script>
+    </footer>
+
+    <script src="Portfolio.js"></script>
+
+
+
+</body>
+</html>

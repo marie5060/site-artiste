@@ -1,0 +1,94 @@
+nav {
+    width:100%;
+    height : 100%;
+    background-color: black;
+    
+
+}
+/*dimension de tout l'encart navigation comprenant la photo et le menu */
+
+#bandeauheader{
+    object-fit: cover;
+    width:100%;
+    height:80%;
+}
+
+#bandeau {
+    height : 100%;
+    width: 100%;
+}
+/* div de l'image */
+
+.menu {
+
+    height : 80%;
+    display: flex;
+   
+    
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    align-items: center;
+}
+/* flex  dans la barre de menu avec centrage des boutons du menu */
+
+.menu a {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline white;
+    color : white;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/*flex/police et couleur du text et taille des boutons*/
+
+a:hover{
+    background:slategray;
+} 
+/*hover au passage de la souris*/
+
+#toggle, label{
+      display:none;
+    }
+
+@media screen and (max-width: 750px)
+{
+
+ 
+    .menu
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: black;
+        height: 220px;
+    }
+ 
+    .menu a {
+        width: 100%;
+
+    }
+ 
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+ 
+    #toggle:checked + .menu {
+        display: flex;
+    }
+
+
+    
+
+}
