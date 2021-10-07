@@ -227,6 +227,16 @@ h2{
 
 @media screen and (max-width: 750px){
 
+    .imgcatoeuvre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgcatoeuvredessins{
+        display: flex;
+        flex-direction: column;
+    }
+
     #sectionPresentation {
         display: flex;
         flex-wrap: wrap;
@@ -242,9 +252,14 @@ h2{
         flex-wrap: wrap;
 
     }
+    .divEvenAccueil{
+        font-size: 1em;
+    }
+    p{
+        font-size: 1em;
+    }
 
-
-    #h3oeuvreaccueil{
+    .h3oeuvreaccueil{
         font-size: 1em;
     }
 
