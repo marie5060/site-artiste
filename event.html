@@ -6,10 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evènement</title>
     <link rel="stylesheet" type="text/css" href="event.css" />
+    <link rel="stylesheet"  href="./header.css">
+    <link href="footer.css" rel="stylesheet" type="text/css"/>
 
 </head>
 <body>
- 
+    <header>
+        <nav>
+            
+            <div id = "bandeau" >
+            
+                <img id = "bandeauheader" src = "./assets-header/imageheader.jpg" >
+                <!--width="100%" height="80%">-->
+
+            </div>
+
+            
+            <label for="toggle">☰</label>
+            <input type="checkbox" id="toggle">
+            <div class ="menu" >
+                    
+              <a href= "accueil.html"> Accueil </a>
+              <a href= "presentation.html"> Qui suis-je ? </a>
+              <a href = "portfolio.html">  Portfolio </a> 
+              <a href = "contact.html"> Contact </a>
+          
+            </div>
+        
+        </nav>
+      </header>
  <h1>Evenements</h1>
 
  <h2>Evenements en cours</h2>
@@ -41,7 +66,36 @@
 
      </div>
  </section>
-
+ <footer>
+    <!--div contact téléphone/mail-->
+    <div>Pour plus d'informations :
+            <ul>
+                <li class="contact">Téléphone : +33630714974</li>
+                <li class="contact">Mail : <a href= "mailto: auri.workaart@gmail.com" id="adress">auri.workaart@gmail.com</a></li>
+                <li class="contact">Tous droits réservés</li>
+        </ul>
+    </div>
+    <!--div réseaux sociaux avec boutons/liens vers FB et Insta-->
+    <div>Retrouvez-moi sur les réseaux sociaux :
+        <div class="socialNetwork"></div>
+        <br>
+        <a href="https://www.instagram.com/auri_workaart/" class="logo"> 
+        <img src="assets-footer/logo-insta.png" alt="instagram"/>
+        </a>
+        <a href="https://www.facebook.com/Auri_workaart-611082549312910" class="logo">
+           <img src="assets-footer/logo-facebook.png" alt="facebook"/>
+        </a>
+    </div>
+    <!--div newsletter avec input et bouton(event JS click)-->
+    <div>Abonnez-vous à la newsletter :
+        <form>
+            <br>
+        <input type="text" placeholder="Veuillez saisir votre adresse e-mail" id="mailNews">
+        <input type="button" value="Je m'abonne" id="buttonNews">
+        </form>
+    </div>
+<script src="footer.js"></script>
+</footer>
     
 </body>
 </html>
